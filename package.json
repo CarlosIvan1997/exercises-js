@@ -1,0 +1,23 @@
+{
+  "name": "exercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "graphql-query.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosIvan1997/exercises-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarlosIvan1997/exercises-js/issues"
+  },
+  "homepage": "https://github.com/CarlosIvan1997/exercises-js#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.6"
+  },
+  "type": "module"
+}
