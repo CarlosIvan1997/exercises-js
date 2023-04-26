@@ -49,8 +49,32 @@ class Tracker {
 
 const tracker = new Tracker();
 
-console.log(tracker.allocate('apibox'));
-console.log(tracker.allocate('apibox'));
-tracker.deallocate('apibox1');
-console.log(tracker.allocate('apibox'));
-console.log(tracker.allocate('sitebox'));
+tracker.allocate('api');
+tracker.allocate('api');
+tracker.allocate('api');
+
+tracker.deallocate('api1');
+
+tracker.allocate('api');
+tracker.allocate('api');
+
+tracker.deallocate('api3');
+
+tracker.allocate('api');
+tracker.allocate('api');
+tracker.allocate('api');
+
+tracker.deallocate('api2');
+
+tracker.allocate('api');
+
+tracker.allocate('server');
+tracker.allocate('server');
+tracker.allocate('server');
+
+tracker.deallocate('server1');
+
+tracker.allocate('server');
+tracker.allocate('server');
+
+console.log(tracker.hostNames);
